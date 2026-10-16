@@ -1,0 +1,1066 @@
+{
+  "categories": [
+    {
+      "id": "c1111111-1111-1111-1111-111111111111",
+      "name": "Conference & Auditorium",
+      "slug": "auditorium",
+      "description": "Large capacity halls for summits, general assemblies, and symposiums.",
+      "sort_order": 1,
+      "created_at": "2026-10-15T16:01:54.192Z"
+    },
+    {
+      "id": "c2222222-2222-2222-2222-222222222222",
+      "name": "Executive Boardrooms",
+      "slug": "boardrooms",
+      "description": "High-level meeting spaces for board discussions and strategic negotiations.",
+      "sort_order": 2,
+      "created_at": "2026-10-15T16:01:54.192Z"
+    },
+    {
+      "id": "c3333333-3333-3333-3333-333333333333",
+      "name": "Training & Computer Labs",
+      "slug": "training-labs",
+      "description": "Equipped learning spaces for practical workshops and technical certifications.",
+      "sort_order": 3,
+      "created_at": "2026-10-15T16:01:54.192Z"
+    },
+    {
+      "id": "c4444444-4444-4444-4444-444444444444",
+      "name": "Meeting Suites",
+      "slug": "meeting-suites",
+      "description": "Focus-oriented rooms for client pitches and team strategy breakouts.",
+      "sort_order": 4,
+      "created_at": "2026-10-15T16:01:54.192Z"
+    }
+  ],
+  "facilities": [
+    {
+      "id": "f1111111-1111-1111-1111-111111111111",
+      "category_id": "c1111111-1111-1111-1111-111111111111",
+      "name": "Main Auditorium & Grand Conference Hall",
+      "slug": "main-auditorium",
+      "description": "Flagship multi-level conference hall featuring a mezzanine gallery, stage podium with integrated digital screen, surround sound acoustics, dual ceiling projector arrays, and ergonomic auditorium seating. Ideal for summits, conventions, graduations, and institutional assemblies.",
+      "capacity": 280,
+      "hourly_rate": 35000,
+      "half_day_rate": 150000,
+      "daily_rate": 250000,
+      "amenities": [
+        "Mezzanine Gallery",
+        "Integrated Podium with Digital Screen",
+        "Surround Sound & Wireless Microphones",
+        "High-Definition Projection",
+        "Central Air Conditioning",
+        "Dedicated Sound Engineer",
+        "Backup Power Generator",
+        "Wheelchair Accessible"
+      ],
+      "images": [
+        "/images/Header2.jpg",
+        "/images/FrontView.jpg"
+      ],
+      "operating_hours": {
+        "weekdays": {
+          "open": "08:00",
+          "close": "18:00"
+        },
+        "saturday": {
+          "open": "09:00",
+          "close": "17:00"
+        },
+        "sunday": null
+      },
+      "setup_buffer_mins": 45,
+      "teardown_buffer_mins": 45,
+      "min_hours": 2,
+      "max_hours": 12,
+      "is_active": true,
+      "created_at": "2026-10-15T16:01:54.192Z",
+      "updated_at": "2026-10-15T16:01:54.192Z"
+    },
+    {
+      "id": "f2222222-2222-2222-2222-222222222222",
+      "category_id": "c2222222-2222-2222-2222-222222222222",
+      "name": "Executive Boardroom Suite",
+      "slug": "executive-boardroom",
+      "description": "Prestigious boardroom furnished with ergonomic executive leather chairs, 75-inch 4K smart interactive display, hybrid video conferencing system, and a discreet beverage preparation station.",
+      "capacity": 18,
+      "hourly_rate": 20000,
+      "half_day_rate": 65000,
+      "daily_rate": 110000,
+      "amenities": [
+        "75-inch 4K Smart Display",
+        "Cisco Hybrid Video Conference Bar",
+        "Omnidirectional Microphones",
+        "Executive Leather Seating",
+        "High-Speed Dedicated Wi-Fi",
+        "Coffee & Tea Service Point"
+      ],
+      "images": [
+        "/images/FrontView.jpg",
+        "/images/Header2.jpg"
+      ],
+      "operating_hours": {
+        "weekdays": {
+          "open": "08:00",
+          "close": "19:00"
+        },
+        "saturday": {
+          "open": "09:00",
+          "close": "16:00"
+        },
+        "sunday": null
+      },
+      "setup_buffer_mins": 30,
+      "teardown_buffer_mins": 30,
+      "min_hours": 1,
+      "max_hours": 10,
+      "is_active": true,
+      "created_at": "2026-10-15T16:01:54.192Z",
+      "updated_at": "2026-10-15T16:01:54.192Z"
+    },
+    {
+      "id": "f3333333-3333-3333-3333-333333333333",
+      "category_id": "c3333333-3333-3333-3333-333333333333",
+      "name": "Interactive Training Lab",
+      "slug": "training-lab",
+      "description": "Modern modular computer and training laboratory designed for collaborative learning, practical tech workshops, masterclasses, and corporate simulations with dual high-lumen projectors.",
+      "capacity": 36,
+      "hourly_rate": 15000,
+      "half_day_rate": 50000,
+      "daily_rate": 85000,
+      "amenities": [
+        "Modular Mobile Desks",
+        "Interactive Whiteboards",
+        "Dual Projectors",
+        "Dedicated Fiber Internet (100Mbps)",
+        "Multiple Floor Power Outlets",
+        "Air Conditioned"
+      ],
+      "images": [
+        "/images/Header2.jpg"
+      ],
+      "operating_hours": {
+        "weekdays": {
+          "open": "08:00",
+          "close": "18:00"
+        },
+        "saturday": {
+          "open": "09:00",
+          "close": "16:00"
+        },
+        "sunday": null
+      },
+      "setup_buffer_mins": 30,
+      "teardown_buffer_mins": 30,
+      "min_hours": 2,
+      "max_hours": 8,
+      "is_active": true,
+      "created_at": "2026-10-15T16:01:54.192Z",
+      "updated_at": "2026-10-15T16:01:54.192Z"
+    },
+    {
+      "id": "f4444444-4444-4444-4444-444444444444",
+      "category_id": "c4444444-4444-4444-4444-444444444444",
+      "name": "Synergy Meeting Room",
+      "slug": "synergy-meeting-room",
+      "description": "Compact, sound-isolated strategy room tailored for confidential interviews, client presentations, and focused team brainstorming sessions.",
+      "capacity": 8,
+      "hourly_rate": 10000,
+      "half_day_rate": 35000,
+      "daily_rate": 60000,
+      "amenities": [
+        "55-inch Presentation Screen",
+        "Magnetic Glass Whiteboard",
+        "High-Speed WiFi",
+        "Video Call Bar"
+      ],
+      "images": [
+        "/images/FrontView.jpg"
+      ],
+      "operating_hours": {
+        "weekdays": {
+          "open": "08:00",
+          "close": "18:00"
+        },
+        "saturday": {
+          "open": "09:00",
+          "close": "16:00"
+        },
+        "sunday": null
+      },
+      "setup_buffer_mins": 15,
+      "teardown_buffer_mins": 15,
+      "min_hours": 1,
+      "max_hours": 8,
+      "is_active": true,
+      "created_at": "2026-10-15T16:01:54.192Z",
+      "updated_at": "2026-10-15T16:01:54.192Z"
+    },
+    {
+      "name": "Podcast & Media Studio Suite",
+      "slug": "media-studio-1792080114393",
+      "description": "Sound-proof broadcast studio with multi-mic arrays and 4K recording.",
+      "capacity": 6,
+      "hourly_rate": 12000,
+      "half_day_rate": 40000,
+      "daily_rate": 70000,
+      "amenities": [
+        "4 Shure SM7B Mics",
+        "RodeCaster Pro II",
+        "Acoustic Paneling"
+      ],
+      "images": [
+        "/images/FrontView.jpg"
+      ],
+      "operating_hours": {
+        "weekdays": {
+          "open": "09:00",
+          "close": "18:00"
+        }
+      },
+      "setup_buffer_mins": 15,
+      "teardown_buffer_mins": 15,
+      "min_hours": 1,
+      "max_hours": 8,
+      "is_active": true,
+      "id": "f-1792080114394-fdme",
+      "created_at": "2026-10-15T16:01:54.394Z",
+      "updated_at": "2026-10-15T16:01:54.394Z"
+    },
+    {
+      "name": "Podcast & Media Studio Suite",
+      "slug": "media-studio-1792081995887",
+      "description": "Sound-proof broadcast studio with multi-mic arrays and 4K recording.",
+      "capacity": 6,
+      "hourly_rate": 12000,
+      "half_day_rate": 40000,
+      "daily_rate": 70000,
+      "amenities": [
+        "4 Shure SM7B Mics",
+        "RodeCaster Pro II",
+        "Acoustic Paneling"
+      ],
+      "images": [
+        "/images/FrontView.jpg"
+      ],
+      "operating_hours": {
+        "weekdays": {
+          "open": "09:00",
+          "close": "18:00"
+        }
+      },
+      "setup_buffer_mins": 15,
+      "teardown_buffer_mins": 15,
+      "min_hours": 1,
+      "max_hours": 8,
+      "is_active": true,
+      "id": "f-1792081995887-6b9f",
+      "created_at": "2026-10-15T16:33:15.887Z",
+      "updated_at": "2026-10-15T16:33:15.887Z"
+    },
+    {
+      "name": "Podcast & Media Studio Suite",
+      "slug": "media-studio-1792082092499",
+      "description": "Sound-proof broadcast studio with multi-mic arrays and 4K recording.",
+      "capacity": 6,
+      "hourly_rate": 12000,
+      "half_day_rate": 40000,
+      "daily_rate": 70000,
+      "amenities": [
+        "4 Shure SM7B Mics",
+        "RodeCaster Pro II",
+        "Acoustic Paneling"
+      ],
+      "images": [
+        "/images/FrontView.jpg"
+      ],
+      "operating_hours": {
+        "weekdays": {
+          "open": "09:00",
+          "close": "18:00"
+        }
+      },
+      "setup_buffer_mins": 15,
+      "teardown_buffer_mins": 15,
+      "min_hours": 1,
+      "max_hours": 8,
+      "is_active": true,
+      "id": "f-1792082092499-w37f",
+      "created_at": "2026-10-15T16:34:52.499Z",
+      "updated_at": "2026-10-15T16:34:52.500Z"
+    },
+    {
+      "name": "Podcast & Media Studio Suite",
+      "slug": "media-studio-1792082117679",
+      "description": "Sound-proof broadcast studio with multi-mic arrays and 4K recording.",
+      "capacity": 6,
+      "hourly_rate": 12000,
+      "half_day_rate": 40000,
+      "daily_rate": 70000,
+      "amenities": [
+        "4 Shure SM7B Mics",
+        "RodeCaster Pro II",
+        "Acoustic Paneling"
+      ],
+      "images": [
+        "/images/FrontView.jpg"
+      ],
+      "operating_hours": {
+        "weekdays": {
+          "open": "09:00",
+          "close": "18:00"
+        }
+      },
+      "setup_buffer_mins": 15,
+      "teardown_buffer_mins": 15,
+      "min_hours": 1,
+      "max_hours": 8,
+      "is_active": true,
+      "id": "f-1792082117680-i7s3",
+      "created_at": "2026-10-15T16:35:17.680Z",
+      "updated_at": "2026-10-15T16:35:17.680Z"
+    }
+  ],
+  "plans": [
+    {
+      "id": "p1111111-1111-1111-1111-111111111111",
+      "code": "MEM-INDIVIDUAL",
+      "name": "Individual Professional",
+      "description": "Designed for consultants, professionals, and lifelong learners seeking an inspiring environment, facility discounts, and high-level networking.",
+      "duration_months": 1,
+      "fee": 25000,
+      "currency": "NGN",
+      "benefits": [
+        "10 Hours complimentary meeting room credits per month",
+        "20% discount on Auditorium and Lab bookings",
+        "High-speed secure fiber Wi-Fi",
+        "Access to Ten42 digital resource library",
+        "Priority invitations to institutional workshops"
+      ],
+      "eligibility": "Open to working professionals, entrepreneurs, and independent researchers.",
+      "is_active": true,
+      "created_at": "2026-10-15T16:01:54.192Z",
+      "updated_at": "2026-10-15T16:01:54.192Z"
+    },
+    {
+      "id": "p2222222-2222-2222-2222-222222222222",
+      "code": "MEM-STUDENT",
+      "name": "Student & Early Career",
+      "description": "Subsidized membership for verified tertiary students and emerging young changemakers committed to personal development and skill acquisition.",
+      "duration_months": 1,
+      "fee": 15000,
+      "currency": "NGN",
+      "benefits": [
+        "Full access to Ten42 study lounge & library hub",
+        "Free entry to selected monthly masterclasses",
+        "High-speed Wi-Fi access",
+        "Mentorship matching opportunities",
+        "15% discount on certified training courses"
+      ],
+      "eligibility": "Valid student ID card or national youth service letter required.",
+      "is_active": true,
+      "created_at": "2026-10-15T16:01:54.192Z",
+      "updated_at": "2026-10-15T16:01:54.192Z"
+    },
+    {
+      "id": "p3333333-3333-3333-3333-333333333333",
+      "code": "MEM-CORPORATE",
+      "name": "Corporate Enterprise",
+      "description": "Comprehensive institutional package for businesses, NGOs, and teams requiring reliable executive meeting spaces and staff capacity development.",
+      "duration_months": 1,
+      "fee": 120000,
+      "currency": "NGN",
+      "benefits": [
+        "5 Registered staff membership passes",
+        "25 Hours Boardroom and Meeting Suite credits",
+        "30% discount on Grand Auditorium reservations",
+        "Branded visitor welcome on front desk screen",
+        "Dedicated account officer"
+      ],
+      "eligibility": "Registered corporate entities, development agencies, and non-profits.",
+      "is_active": true,
+      "created_at": "2026-10-15T16:01:54.192Z",
+      "updated_at": "2026-10-15T16:01:54.192Z"
+    },
+    {
+      "id": "p4444444-4444-4444-4444-444444444444",
+      "code": "MEM-COMMUNITY",
+      "name": "Community Associate",
+      "description": "Entry-level membership for community advocates, volunteers, and remote workers desiring connection with the Ten42 ecosystem.",
+      "duration_months": 1,
+      "fee": 10000,
+      "currency": "NGN",
+      "benefits": [
+        "Access to open community networking forums",
+        "Discounted day pass to coworking spaces",
+        "Monthly institutional newsletter and publications",
+        "Invitations to public impact talks"
+      ],
+      "eligibility": "Open to all community members.",
+      "is_active": true,
+      "created_at": "2026-10-15T16:01:54.192Z",
+      "updated_at": "2026-10-15T16:01:54.192Z"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "b1111111-1111-1111-1111-111111111111",
+      "booking_reference": "T42-BK-261015-A101",
+      "facility_id": "f1111111-1111-1111-1111-111111111111",
+      "guest_name": "Dr. Chinedu Eze",
+      "guest_email": "c.eze@nigerianhealthleaders.org",
+      "guest_phone": "+234 803 111 2233",
+      "organization": "West African Healthcare Initiative",
+      "start_time": "2026-10-18T09:00:00Z",
+      "end_time": "2026-10-18T16:00:00Z",
+      "purpose": "Annual Healthcare Leaders Strategy Summit",
+      "attendee_count": 220,
+      "estimated_price": 250000,
+      "approved_price": 250000,
+      "booking_status": "confirmed",
+      "payment_status": "paid",
+      "created_at": "2026-10-15T16:01:54.192Z",
+      "updated_at": "2026-10-15T16:01:54.192Z"
+    },
+    {
+      "id": "b2222222-2222-2222-2222-222222222222",
+      "booking_reference": "T42-BK-261016-B202",
+      "facility_id": "f2222222-2222-2222-2222-222222222222",
+      "guest_name": "Amina Bello",
+      "guest_email": "amina.bello@apexpartners.ng",
+      "guest_phone": "+234 802 444 5566",
+      "organization": "Apex Capital Partners",
+      "start_time": "2026-10-19T10:00:00Z",
+      "end_time": "2026-10-19T14:00:00Z",
+      "purpose": "Q4 Board of Directors Strategic Audit",
+      "attendee_count": 14,
+      "estimated_price": 65000,
+      "approved_price": 65000,
+      "booking_status": "pending",
+      "payment_status": "unpaid",
+      "created_at": "2026-10-15T16:01:54.192Z",
+      "updated_at": "2026-10-15T16:01:54.192Z"
+    },
+    {
+      "facility_id": "f2222222-2222-2222-2222-222222222222",
+      "guest_name": "Chief Emeka Okeke",
+      "guest_email": "emeka@okekehomes.ng",
+      "guest_phone": "+234 805 123 4567",
+      "organization": "Okeke Properties Group",
+      "start_time": "2026-11-25T10:00:00Z",
+      "end_time": "2026-11-25T14:00:00Z",
+      "purpose": "Executive Board Annual General Meeting",
+      "attendee_count": 14,
+      "estimated_price": 65000,
+      "id": "b-1792080114374-6057",
+      "booking_reference": "T42-BK-261015-6057",
+      "booking_status": "confirmed",
+      "payment_status": "unpaid",
+      "created_at": "2026-10-15T16:01:54.374Z",
+      "updated_at": "2026-10-15T16:01:54.376Z",
+      "admin_notes": "Boardroom reserved with video bar setup"
+    },
+    {
+      "facility_id": "f2222222-2222-2222-2222-222222222222",
+      "guest_name": "Chief Emeka Okeke",
+      "guest_email": "emeka@okekehomes.ng",
+      "guest_phone": "+234 805 123 4567",
+      "organization": "Okeke Properties Group",
+      "start_time": "2026-11-14T17:28:21.141Z",
+      "end_time": "2026-11-14T21:28:21.141Z",
+      "purpose": "Executive Board Annual General Meeting",
+      "attendee_count": 14,
+      "estimated_price": 65000,
+      "id": "b-1792082092475-2338",
+      "booking_reference": "T42-BK-261015-2338",
+      "booking_status": "confirmed",
+      "payment_status": "unpaid",
+      "created_at": "2026-10-15T16:34:52.476Z",
+      "updated_at": "2026-10-15T16:34:52.477Z",
+      "admin_notes": "Boardroom reserved with video bar setup"
+    }
+  ],
+  "memberships": [
+    {
+      "id": "m1111111-1111-1111-1111-111111111111",
+      "membership_number": "T42-MEM-2026-0001",
+      "user_id": "u1111111-1111-1111-1111-111111111111",
+      "plan_id": "p1111111-1111-1111-1111-111111111111",
+      "status": "active",
+      "start_date": "2026-10-01",
+      "expiry_date": "2026-11-01",
+      "emergency_contact": {
+        "name": "Funke Balogun",
+        "phone": "+234 803 999 8877",
+        "relationship": "Spouse"
+      },
+      "created_at": "2026-10-15T16:01:54.192Z",
+      "updated_at": "2026-10-15T16:01:54.192Z"
+    },
+    {
+      "id": "m2222222-2222-2222-2222-222222222222",
+      "membership_number": "T42-MEM-2026-0002",
+      "user_id": "u2222222-2222-2222-2222-222222222222",
+      "plan_id": "p2222222-2222-2222-2222-222222222222",
+      "status": "application_pending",
+      "created_at": "2026-10-15T16:01:54.192Z",
+      "updated_at": "2026-10-15T16:01:54.192Z"
+    },
+    {
+      "user_id": "u-test-applicant",
+      "plan_id": "p1111111-1111-1111-1111-111111111111",
+      "emergency_contact": {
+        "name": "Ade Awe",
+        "phone": "+234 803 111 9999",
+        "relationship": "Brother"
+      },
+      "id": "m-1792080114370-ogug",
+      "membership_number": "T42-MEM-2026-0003",
+      "status": "active",
+      "created_at": "2026-10-15T16:01:54.370Z",
+      "updated_at": "2026-10-15T16:01:54.371Z",
+      "start_date": "2026-11-01",
+      "expiry_date": "2026-12-01"
+    },
+    {
+      "user_id": "u-test-subscriber",
+      "plan_id": "p1111111-1111-1111-1111-111111111111",
+      "id": "m-1792080114379-m9fj",
+      "membership_number": "T42-MEM-2026-0004",
+      "status": "active",
+      "created_at": "2026-10-15T16:01:54.379Z",
+      "updated_at": "2026-10-15T16:01:54.381Z",
+      "start_date": "2026-10-15",
+      "expiry_date": "2026-11-15",
+      "approved_by": "Duty Auditor",
+      "approved_at": "2026-10-15T16:01:54.381Z"
+    },
+    {
+      "user_id": "u-expired-test",
+      "plan_id": "p1111111-1111-1111-1111-111111111111",
+      "id": "m-1792080114390-oack",
+      "membership_number": "T42-MEM-2026-0005",
+      "status": "expired",
+      "created_at": "2026-10-15T16:01:54.390Z",
+      "updated_at": "2026-10-15T16:01:54.391Z",
+      "start_date": "2025-01-01",
+      "expiry_date": "2025-02-01"
+    },
+    {
+      "user_id": "u-test-applicant",
+      "plan_id": "p1111111-1111-1111-1111-111111111111",
+      "emergency_contact": {
+        "name": "Ade Awe",
+        "phone": "+234 803 111 9999",
+        "relationship": "Brother"
+      },
+      "id": "m-1792081995846-01za",
+      "membership_number": "T42-MEM-2026-0006",
+      "status": "active",
+      "created_at": "2026-10-15T16:33:15.846Z",
+      "updated_at": "2026-10-15T16:33:15.848Z",
+      "start_date": "2026-11-01",
+      "expiry_date": "2026-12-01"
+    },
+    {
+      "user_id": "u-test-subscriber",
+      "plan_id": "p1111111-1111-1111-1111-111111111111",
+      "id": "m-1792081995862-0www",
+      "membership_number": "T42-MEM-2026-0007",
+      "status": "active",
+      "created_at": "2026-10-15T16:33:15.862Z",
+      "updated_at": "2026-10-15T16:33:15.867Z",
+      "start_date": "2026-10-15",
+      "expiry_date": "2026-11-15",
+      "approved_by": "Duty Auditor",
+      "approved_at": "2026-10-15T16:33:15.867Z"
+    },
+    {
+      "user_id": "u-expired-test",
+      "plan_id": "p1111111-1111-1111-1111-111111111111",
+      "id": "m-1792081995883-ti1k",
+      "membership_number": "T42-MEM-2026-0008",
+      "status": "expired",
+      "created_at": "2026-10-15T16:33:15.883Z",
+      "updated_at": "2026-10-15T16:33:15.885Z",
+      "start_date": "2025-01-01",
+      "expiry_date": "2025-02-01"
+    },
+    {
+      "user_id": "u-test-applicant",
+      "plan_id": "p1111111-1111-1111-1111-111111111111",
+      "emergency_contact": {
+        "name": "Ade Awe",
+        "phone": "+234 803 111 9999",
+        "relationship": "Brother"
+      },
+      "id": "m-1792082092471-jttj",
+      "membership_number": "T42-MEM-2026-0009",
+      "status": "active",
+      "created_at": "2026-10-15T16:34:52.471Z",
+      "updated_at": "2026-10-15T16:34:52.472Z",
+      "start_date": "2026-11-01",
+      "expiry_date": "2026-12-01"
+    },
+    {
+      "user_id": "u-test-subscriber",
+      "plan_id": "p1111111-1111-1111-1111-111111111111",
+      "id": "m-1792082092482-v1am",
+      "membership_number": "T42-MEM-2026-0010",
+      "status": "active",
+      "created_at": "2026-10-15T16:34:52.482Z",
+      "updated_at": "2026-10-15T16:34:52.484Z",
+      "start_date": "2026-10-15",
+      "expiry_date": "2026-11-15",
+      "approved_by": "Duty Auditor",
+      "approved_at": "2026-10-15T16:34:52.484Z"
+    },
+    {
+      "user_id": "u-expired-test",
+      "plan_id": "p1111111-1111-1111-1111-111111111111",
+      "id": "m-1792082092495-wfl6",
+      "membership_number": "T42-MEM-2026-0011",
+      "status": "expired",
+      "created_at": "2026-10-15T16:34:52.495Z",
+      "updated_at": "2026-10-15T16:34:52.496Z",
+      "start_date": "2025-01-01",
+      "expiry_date": "2025-02-01"
+    },
+    {
+      "user_id": "u-test-applicant",
+      "plan_id": "p1111111-1111-1111-1111-111111111111",
+      "emergency_contact": {
+        "name": "Ade Awe",
+        "phone": "+234 803 111 9999",
+        "relationship": "Brother"
+      },
+      "id": "m-1792082117651-wyu2",
+      "membership_number": "T42-MEM-2026-0012",
+      "status": "active",
+      "created_at": "2026-10-15T16:35:17.652Z",
+      "updated_at": "2026-10-15T16:35:17.653Z",
+      "start_date": "2026-11-01",
+      "expiry_date": "2026-12-01"
+    },
+    {
+      "user_id": "u-test-subscriber",
+      "plan_id": "p1111111-1111-1111-1111-111111111111",
+      "id": "m-1792082117663-4g2k",
+      "membership_number": "T42-MEM-2026-0013",
+      "status": "active",
+      "created_at": "2026-10-15T16:35:17.663Z",
+      "updated_at": "2026-10-15T16:35:17.666Z",
+      "start_date": "2026-10-15",
+      "expiry_date": "2026-11-15",
+      "approved_by": "Duty Auditor",
+      "approved_at": "2026-10-15T16:35:17.666Z"
+    },
+    {
+      "user_id": "u-expired-test",
+      "plan_id": "p1111111-1111-1111-1111-111111111111",
+      "id": "m-1792082117676-9yln",
+      "membership_number": "T42-MEM-2026-0014",
+      "status": "expired",
+      "created_at": "2026-10-15T16:35:17.676Z",
+      "updated_at": "2026-10-15T16:35:17.677Z",
+      "start_date": "2025-01-01",
+      "expiry_date": "2025-02-01"
+    }
+  ],
+  "guests": [
+    {
+      "id": "g1111111-1111-1111-1111-111111111111",
+      "full_name": "Tunde Bakare",
+      "phone": "+234 809 123 4567",
+      "email": "tunde@bakareconsult.com",
+      "organization": "Bakare Advisory",
+      "created_at": "2026-10-15T16:01:54.192Z"
+    },
+    {
+      "id": "g2222222-2222-2222-2222-222222222222",
+      "full_name": "Ngozi Okonjo",
+      "phone": "+234 805 789 0123",
+      "email": "ngozi@tradebridge.org",
+      "organization": "TradeBridge Network",
+      "created_at": "2026-10-15T16:01:54.192Z"
+    },
+    {
+      "id": "g-1792080114384-nbpl",
+      "full_name": "Senator Farouk Bello",
+      "phone": "+234 802 999 8888",
+      "email": "f.bello@senate.gov.ng",
+      "organization": "National Assembly Committee on Education",
+      "created_at": "2026-10-15T16:01:54.384Z"
+    }
+  ],
+  "visits": [
+    {
+      "id": "v-1792082117670-xv5v",
+      "visit_reference": "T42-VST-261015-290",
+      "guest_id": "g-1792080114384-nbpl",
+      "purpose": "Auditorium facility technical inspection",
+      "host_person": "Executive Director",
+      "destination": "Main Auditorium",
+      "group_size": 3,
+      "check_in_time": "2026-10-15T16:35:17.670Z",
+      "status": "checked_out",
+      "notes": "VIP guest party badge issued",
+      "created_at": "2026-10-15T16:35:17.670Z",
+      "guest": {
+        "id": "g-1792080114384-nbpl",
+        "full_name": "Senator Farouk Bello",
+        "phone": "+234 802 999 8888",
+        "email": "f.bello@senate.gov.ng",
+        "organization": "National Assembly Committee on Education",
+        "created_at": "2026-10-15T16:01:54.384Z"
+      },
+      "check_out_time": "2026-10-15T16:35:17.671Z"
+    },
+    {
+      "id": "v-1792082092489-d8mx",
+      "visit_reference": "T42-VST-261015-577",
+      "guest_id": "g-1792080114384-nbpl",
+      "purpose": "Auditorium facility technical inspection",
+      "host_person": "Executive Director",
+      "destination": "Main Auditorium",
+      "group_size": 3,
+      "check_in_time": "2026-10-15T16:34:52.489Z",
+      "status": "checked_out",
+      "notes": "VIP guest party badge issued",
+      "created_at": "2026-10-15T16:34:52.489Z",
+      "guest": {
+        "id": "g-1792080114384-nbpl",
+        "full_name": "Senator Farouk Bello",
+        "phone": "+234 802 999 8888",
+        "email": "f.bello@senate.gov.ng",
+        "organization": "National Assembly Committee on Education",
+        "created_at": "2026-10-15T16:01:54.384Z"
+      },
+      "check_out_time": "2026-10-15T16:34:52.491Z"
+    },
+    {
+      "id": "v-1792081995873-aicm",
+      "visit_reference": "T42-VST-261015-674",
+      "guest_id": "g-1792080114384-nbpl",
+      "purpose": "Auditorium facility technical inspection",
+      "host_person": "Executive Director",
+      "destination": "Main Auditorium",
+      "group_size": 3,
+      "check_in_time": "2026-10-15T16:33:15.873Z",
+      "status": "checked_out",
+      "notes": "VIP guest party badge issued",
+      "created_at": "2026-10-15T16:33:15.873Z",
+      "guest": {
+        "id": "g-1792080114384-nbpl",
+        "full_name": "Senator Farouk Bello",
+        "phone": "+234 802 999 8888",
+        "email": "f.bello@senate.gov.ng",
+        "organization": "National Assembly Committee on Education",
+        "created_at": "2026-10-15T16:01:54.384Z"
+      },
+      "check_out_time": "2026-10-15T16:33:15.875Z"
+    },
+    {
+      "id": "v-1792080114384-dqh2",
+      "visit_reference": "T42-VST-261015-497",
+      "guest_id": "g-1792080114384-nbpl",
+      "purpose": "Auditorium facility technical inspection",
+      "host_person": "Executive Director",
+      "destination": "Main Auditorium",
+      "group_size": 3,
+      "check_in_time": "2026-10-15T16:01:54.384Z",
+      "status": "checked_out",
+      "notes": "VIP guest party badge issued",
+      "created_at": "2026-10-15T16:01:54.384Z",
+      "guest": {
+        "id": "g-1792080114384-nbpl",
+        "full_name": "Senator Farouk Bello",
+        "phone": "+234 802 999 8888",
+        "email": "f.bello@senate.gov.ng",
+        "organization": "National Assembly Committee on Education",
+        "created_at": "2026-10-15T16:01:54.384Z"
+      },
+      "check_out_time": "2026-10-15T16:01:54.386Z"
+    },
+    {
+      "id": "v1111111-1111-1111-1111-111111111111",
+      "visit_reference": "T42-VST-261015-001",
+      "guest_id": "g1111111-1111-1111-1111-111111111111",
+      "purpose": "Meeting with Operations Director",
+      "host_person": "Facility Management Team",
+      "destination": "Executive Boardroom",
+      "group_size": 1,
+      "check_in_time": "2026-10-15T14:01:54.192Z",
+      "status": "checked_in",
+      "notes": "Visitor badge #04 issued",
+      "created_at": "2026-10-15T16:01:54.192Z"
+    },
+    {
+      "id": "v2222222-2222-2222-2222-222222222222",
+      "visit_reference": "T42-VST-261015-002",
+      "guest_id": "g2222222-2222-2222-2222-222222222222",
+      "purpose": "Training Lab Inspection",
+      "host_person": "Technical Director",
+      "destination": "Training Lab",
+      "group_size": 2,
+      "check_in_time": "2026-10-15T12:01:54.192Z",
+      "check_out_time": "2026-10-15T15:01:54.192Z",
+      "status": "checked_out",
+      "notes": "Tour concluded successfully",
+      "created_at": "2026-10-15T16:01:54.192Z"
+    }
+  ],
+  "payments": [
+    {
+      "membership_id": "m-1792082117663-4g2k",
+      "amount": 25000,
+      "currency": "NGN",
+      "payment_method": "bank_transfer",
+      "payment_date": "2026-10-15",
+      "receipt_reference": "ZB-AUDIT-TEST-9988",
+      "notes": "Verified via Zenith Bank credit alert",
+      "id": "pay-1792082117664-32h0",
+      "payment_reference": "T42-PAY-261015-8272",
+      "status": "verified",
+      "created_at": "2026-10-15T16:35:17.664Z",
+      "updated_at": "2026-10-15T16:35:17.666Z",
+      "verified_by": "Duty Auditor",
+      "verified_at": "2026-10-15T16:35:17.666Z"
+    },
+    {
+      "membership_id": "m-1792082092482-v1am",
+      "amount": 25000,
+      "currency": "NGN",
+      "payment_method": "bank_transfer",
+      "payment_date": "2026-10-15",
+      "receipt_reference": "ZB-AUDIT-TEST-9988",
+      "notes": "Verified via Zenith Bank credit alert",
+      "id": "pay-1792082092483-ox77",
+      "payment_reference": "T42-PAY-261015-5715",
+      "status": "verified",
+      "created_at": "2026-10-15T16:34:52.483Z",
+      "updated_at": "2026-10-15T16:34:52.484Z",
+      "verified_by": "Duty Auditor",
+      "verified_at": "2026-10-15T16:34:52.484Z"
+    },
+    {
+      "membership_id": "m-1792081995862-0www",
+      "amount": 25000,
+      "currency": "NGN",
+      "payment_method": "bank_transfer",
+      "payment_date": "2026-10-15",
+      "receipt_reference": "ZB-AUDIT-TEST-9988",
+      "notes": "Verified via Zenith Bank credit alert",
+      "id": "pay-1792081995865-wc2n",
+      "payment_reference": "T42-PAY-261015-7798",
+      "status": "verified",
+      "created_at": "2026-10-15T16:33:15.865Z",
+      "updated_at": "2026-10-15T16:33:15.867Z",
+      "verified_by": "Duty Auditor",
+      "verified_at": "2026-10-15T16:33:15.866Z"
+    },
+    {
+      "membership_id": "m-1792080114379-m9fj",
+      "amount": 25000,
+      "currency": "NGN",
+      "payment_method": "bank_transfer",
+      "payment_date": "2026-10-15",
+      "receipt_reference": "ZB-AUDIT-TEST-9988",
+      "notes": "Verified via Zenith Bank credit alert",
+      "id": "pay-1792080114380-2jb0",
+      "payment_reference": "T42-PAY-261015-4701",
+      "status": "verified",
+      "created_at": "2026-10-15T16:01:54.380Z",
+      "updated_at": "2026-10-15T16:01:54.381Z",
+      "verified_by": "Duty Auditor",
+      "verified_at": "2026-10-15T16:01:54.381Z"
+    },
+    {
+      "id": "pay11111-1111-1111-1111-111111111111",
+      "payment_reference": "T42-PAY-261015-P001",
+      "booking_id": "b1111111-1111-1111-1111-111111111111",
+      "amount": 250000,
+      "currency": "NGN",
+      "payment_method": "bank_transfer",
+      "payment_date": "2026-10-15",
+      "receipt_reference": "ZB-TXN-998877221",
+      "status": "verified",
+      "notes": "Verified via Zenith Bank alert",
+      "created_at": "2026-10-15T16:01:54.192Z",
+      "updated_at": "2026-10-15T16:01:54.192Z"
+    },
+    {
+      "id": "pay22222-2222-2222-2222-222222222222",
+      "payment_reference": "T42-PAY-261015-P002",
+      "membership_id": "m1111111-1111-1111-1111-111111111111",
+      "amount": 25000,
+      "currency": "NGN",
+      "payment_method": "bank_transfer",
+      "payment_date": "2026-10-01",
+      "receipt_reference": "ZB-TXN-11223344",
+      "status": "verified",
+      "created_at": "2026-10-15T16:01:54.192Z",
+      "updated_at": "2026-10-15T16:01:54.192Z"
+    }
+  ],
+  "invoices": [],
+  "enquiries": [
+    {
+      "full_name": "Engr. Dapo Alao",
+      "email": "dapo@alaoconsulting.com",
+      "phone": "+234 802 333 4455",
+      "category": "facility_booking",
+      "subject": "Inquiry on Grand Auditorium availability for December Summit",
+      "message": "We are requesting dates and technical equipment specifications for 250 attendees.",
+      "preferred_contact_method": "email",
+      "assigned_to": null,
+      "internal_notes": "Contacted via email with Auditorium technical spec brochure.",
+      "id": "e-1792082117646-qb31",
+      "reference": "T42-ENQ-2026-0005",
+      "status": "resolved",
+      "created_at": "2026-10-15T16:35:17.646Z",
+      "updated_at": "2026-10-15T16:35:17.648Z"
+    },
+    {
+      "full_name": "Engr. Dapo Alao",
+      "email": "dapo@alaoconsulting.com",
+      "phone": "+234 802 333 4455",
+      "category": "facility_booking",
+      "subject": "Inquiry on Grand Auditorium availability for December Summit",
+      "message": "We are requesting dates and technical equipment specifications for 250 attendees.",
+      "preferred_contact_method": "email",
+      "assigned_to": null,
+      "internal_notes": "Contacted via email with Auditorium technical spec brochure.",
+      "id": "e-1792082092465-qta0",
+      "reference": "T42-ENQ-2026-0004",
+      "status": "resolved",
+      "created_at": "2026-10-15T16:34:52.465Z",
+      "updated_at": "2026-10-15T16:34:52.467Z"
+    },
+    {
+      "full_name": "Engr. Dapo Alao",
+      "email": "dapo@alaoconsulting.com",
+      "phone": "+234 802 333 4455",
+      "category": "facility_booking",
+      "subject": "Inquiry on Grand Auditorium availability for December Summit",
+      "message": "We are requesting dates and technical equipment specifications for 250 attendees.",
+      "preferred_contact_method": "email",
+      "assigned_to": null,
+      "internal_notes": "Contacted via email with Auditorium technical spec brochure.",
+      "id": "e-1792081995839-2buf",
+      "reference": "T42-ENQ-2026-0003",
+      "status": "resolved",
+      "created_at": "2026-10-15T16:33:15.839Z",
+      "updated_at": "2026-10-15T16:33:15.842Z"
+    },
+    {
+      "full_name": "Engr. Dapo Alao",
+      "email": "dapo@alaoconsulting.com",
+      "phone": "+234 802 333 4455",
+      "category": "facility_booking",
+      "subject": "Inquiry on Grand Auditorium availability for December Summit",
+      "message": "We are requesting dates and technical equipment specifications for 250 attendees.",
+      "preferred_contact_method": "email",
+      "assigned_to": null,
+      "internal_notes": "Contacted via email with Auditorium technical spec brochure.",
+      "id": "e-1792080114365-z3w8",
+      "reference": "T42-ENQ-2026-0002",
+      "status": "resolved",
+      "created_at": "2026-10-15T16:01:54.365Z",
+      "updated_at": "2026-10-15T16:01:54.367Z"
+    },
+    {
+      "id": "e1111111-1111-1111-1111-111111111111",
+      "reference": "T42-ENQ-2026-0001",
+      "full_name": "Engr. Segun Johnson",
+      "email": "s.johnson@technigeria.com",
+      "phone": "+234 803 765 4321",
+      "category": "facility_booking",
+      "subject": "Inquiry for 3-Day Engineering Hackathon Hall Rental",
+      "message": "Good day, we are planning a 3-day hackathon for 150 software developers in December. Does the Grand Auditorium have uninterrupted high-capacity WiFi and power redundancy?",
+      "preferred_contact_method": "email",
+      "status": "new",
+      "created_at": "2026-10-15T16:01:54.193Z",
+      "updated_at": "2026-10-15T16:01:54.193Z"
+    }
+  ],
+  "programs": [
+    {
+      "id": "pg111111-1111-1111-1111-111111111111",
+      "slug": "executive-leadership-governance-2026",
+      "title": "Executive Leadership & Institutional Governance",
+      "description": "An intensive 3-day executive masterclass focusing on ethical leadership, organizational culture, fiduciary stewardship, and adaptive strategic planning for public and private sector leaders.",
+      "category": "Leadership",
+      "featured_image": "/images/Header2.jpg",
+      "instructor": "Dr. K. Adeleke & Visiting Faculty",
+      "start_date": "2026-11-10",
+      "end_date": "2026-11-12",
+      "venue": "Grand Auditorium, Ten42 Center",
+      "registration_deadline": "2026-11-05",
+      "capacity": 50,
+      "fee": 75000,
+      "currency": "NGN",
+      "status": "published",
+      "created_at": "2026-10-15T16:01:54.193Z",
+      "updated_at": "2026-10-15T16:01:54.193Z"
+    },
+    {
+      "id": "pg222222-2222-2222-2222-222222222222",
+      "slug": "digital-skills-data-analytics",
+      "title": "Applied Data Analytics for Decision Makers",
+      "description": "Practical hands-on training providing professionals with the tools to translate raw business metrics into actionable insights using modern analytics, dashboards, and automated reporting.",
+      "category": "Technology",
+      "featured_image": "/images/FrontView.jpg",
+      "instructor": "Engr. T. Olatunji",
+      "start_date": "2026-11-20",
+      "end_date": "2026-11-22",
+      "venue": "Interactive Training Lab",
+      "registration_deadline": "2026-11-15",
+      "capacity": 30,
+      "fee": 45000,
+      "currency": "NGN",
+      "status": "published",
+      "created_at": "2026-10-15T16:01:54.193Z",
+      "updated_at": "2026-10-15T16:01:54.193Z"
+    }
+  ],
+  "settings": {
+    "general_info": {
+      "center_name": "Ten42 Training and Resource Center",
+      "tagline": "Training for Right Living...",
+      "phone": "+234 800 000 1042",
+      "email": "info@ten42.org",
+      "address": "Plot 1042 Commercial Layout, Victoria Island, Lagos, Nigeria",
+      "currency": "NGN",
+      "timezone": "Africa/Lagos",
+      "operating_hours": "Monday - Friday: 8:00 AM - 6:00 PM | Saturday: 9:00 AM - 5:00 PM"
+    },
+    "bank_details": {
+      "bank_name": "Zenith Bank Plc",
+      "account_name": "Ten42 Training and Resource Center Ltd",
+      "account_number": "1042000000",
+      "sort_code": "057150000",
+      "swift_code": "ZEIBNGLA"
+    }
+  },
+  "users": [
+    {
+      "id": "u-admin-1",
+      "email": "admin@ten42.org",
+      "full_name": "System Administrator",
+      "role": "super_admin"
+    },
+    {
+      "id": "u-frontdesk-1",
+      "email": "reception@ten42.org",
+      "full_name": "Front Desk Reception",
+      "role": "front_desk"
+    },
+    {
+      "id": "u1111111-1111-1111-1111-111111111111",
+      "email": "member@example.com",
+      "full_name": "Tunde Balogun",
+      "role": "member"
+    }
+  ]
+}
