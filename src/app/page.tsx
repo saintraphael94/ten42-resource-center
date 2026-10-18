@@ -74,7 +74,7 @@ export default async function HomePage() {
                 </h1>
 
                 <p className="text-lg text-slate-300 max-w-2xl leading-relaxed">
-                  Ten42 Training and Resource Center provides institutional-grade event auditoriums, executive boardrooms, practical tech labs, and transformative professional training programs in Lagos.
+                  Ten42 Training and Resource Center provides institutional-grade event auditoriums, executive boardrooms, practical tech labs, and transformative professional training programs in Kaduna.
                 </p>
 
                 <div className="pt-2 flex flex-wrap gap-4">
@@ -158,7 +158,7 @@ export default async function HomePage() {
                   </div>
                   <div>
                     <span className="text-[11px] font-bold text-sky-950 block">Modern Architecture</span>
-                    <span className="text-[10px] text-slate-500 block">Plot 1042 Commercial Layout</span>
+                    <span className="text-[10px] text-slate-500 block">7 Sylvester Idakwo Crescent, Barnawa GRA Kaduna</span>
                   </div>
                 </div>
               </div>

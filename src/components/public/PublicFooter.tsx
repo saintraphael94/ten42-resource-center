@@ -115,7 +115,7 @@ export function PublicFooter() {
               <li className="flex items-start space-x-2.5">
                 <MapPin className="w-4 h-4 text-orange-500 mt-0.5 flex-shrink-0" />
                 <span className="text-xs leading-relaxed text-slate-300">
-                  Plot 1042 Commercial Layout, Victoria Island, Lagos, Nigeria
+                  7 Sylvester Idakwo Crescent, Barnawa GRA Kaduna
                 </span>
               </li>
               <li className="flex items-center space-x-2.5">

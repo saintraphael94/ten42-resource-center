@@ -160,7 +160,7 @@ const INITIAL_DATA: DatabaseData = {
         'Multiple Floor Power Outlets',
         'Air Conditioned',
       ],
-      images: ['/images/Header2.jpg'],
+      images: ['/images/Ten42-Comp-Room.jpg'],
       operating_hours: {
         weekdays: { open: '08:00', close: '18:00' },
         saturday: { open: '09:00', close: '16:00' },

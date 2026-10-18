@@ -105,7 +105,7 @@ export default function ContactPage() {
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <Input
                       label="Full Name"
-                      placeholder="e.g. Kolawole Adebayo"
+                      placeholder="e.g. Ibitoye Olayemi Raphael"
                       error={errors.full_name?.message}
                       {...register('full_name')}
                     />
@@ -121,7 +121,7 @@ export default function ContactPage() {
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <Input
                       label="Phone Number (Optional)"
-                      placeholder="+234 800 000 0000"
+                      placeholder="+234 905 5410 575"
                       error={errors.phone?.message}
                       {...register('phone')}
                     />
@@ -190,7 +190,7 @@ export default function ContactPage() {
                     <MapPin className="w-5 h-5 text-orange-400 flex-shrink-0 mt-0.5" />
                     <div>
                       <strong className="block text-white">Physical Location</strong>
-                      <span>Plot 1042 Commercial Layout, Victoria Island, Lagos, Nigeria</span>
+                      <span>7-9, Sylvester Idakwo Crescent, Barnawa GRA, Kaduna</span>
                     </div>
                   </div>
 
@@ -198,7 +198,7 @@ export default function ContactPage() {
                     <Phone className="w-5 h-5 text-orange-400 flex-shrink-0 mt-0.5" />
                     <div>
                       <strong className="block text-white">Telephone & Inquiries</strong>
-                      <span>+234 800 000 1042</span>
+                      <span>+234 905 5410 575</span>
                     </div>
                   </div>
 
