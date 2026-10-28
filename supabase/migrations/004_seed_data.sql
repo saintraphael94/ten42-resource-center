@@ -43,7 +43,7 @@ INSERT INTO public.facilities (
     65000.00,
     110000.00,
     '["75-inch 4K Smart Display", "Cisco Hybrid Video Conference Bar", "Omnidirectional Microphones", "Executive Leather Seating", "High-Speed Dedicated Wi-Fi", "Coffee & Tea Service Point"]'::jsonb,
-    ARRAY['/images/FrontView.jpg', '/images/Header2.jpg'],
+    ARRAY['/images/Ten42-B-Room.png', '/images/Ten42-E-Session.jpg'],
     '{"weekdays": {"open": "08:00", "close": "19:00"}, "saturday": {"open": "09:00", "close": "16:00"}, "sunday": null}'::jsonb,
     30, 30, 1, 10, TRUE
 ),
@@ -58,7 +58,7 @@ INSERT INTO public.facilities (
     50000.00,
     85000.00,
     '["Modular Mobile Desks", "Interactive Whiteboards", "Dual Projectors", "Dedicated Fiber Internet (100Mbps)", "Multiple Floor Power Outlets", "Air Conditioned"]'::jsonb,
-    ARRAY['/images/Header2.jpg'],
+    ARRAY['/images/Ten42-Comp-Room.jpg', '/images/Ten42-C-Room.png'],
     '{"weekdays": {"open": "08:00", "close": "18:00"}, "saturday": {"open": "09:00", "close": "16:00"}, "sunday": null}'::jsonb,
     30, 30, 2, 8, TRUE
 ),
@@ -73,7 +73,7 @@ INSERT INTO public.facilities (
     35000.00,
     60000.00,
     '["55-inch Presentation Screen", "Magnetic Glass Whiteboard", "High-Speed WiFi", "Video Call Bar"]'::jsonb,
-    ARRAY['/images/FrontView.jpg'],
+    ARRAY['/images/Ten42-C-Room.png', '/images/Ten42-E-Session.jpg'],
     '{"weekdays": {"open": "08:00", "close": "18:00"}, "saturday": {"open": "09:00", "close": "16:00"}, "sunday": null}'::jsonb,
     15, 15, 1, 8, TRUE
 )

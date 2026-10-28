@@ -43,7 +43,7 @@ export default function AboutPage() {
                 </div>
                 <div className="mt-4 p-4 rounded-xl bg-slate-50 border border-slate-200">
                   <p className="text-xs text-slate-600 italic">
-                    The modern, purpose-built Ten42 Training & Resource Center facility located in Lagos, Nigeria.
+                    The modern, purpose-built Ten42 Training & Resource Center facility located in Barnawa GRA, Kaduna, Nigeria.
                   </p>
                 </div>
               </div>

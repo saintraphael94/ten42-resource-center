@@ -105,7 +105,7 @@ async function runTestSuite() {
   });
 
   // 3. A member makes a reservation and staff approve it
-  const uniqueTestTime = Date.now() + 86400000 * 30 + Math.floor(Math.random() * 10000000);
+  const uniqueTestTime = 2000000000000 + Date.now() + Math.floor(Math.random() * 1000000000);
   const testSlotStart = new Date(uniqueTestTime).toISOString();
   const testSlotEnd = new Date(uniqueTestTime + 14400000).toISOString(); // +4 hours
   const testConflictStart = new Date(uniqueTestTime + 3600000).toISOString(); // +1 hour (inside slot)
@@ -306,7 +306,7 @@ async function runTestSuite() {
       half_day_rate: 40000,
       daily_rate: 70000,
       amenities: ['4 Shure SM7B Mics', 'RodeCaster Pro II', 'Acoustic Paneling'],
-      images: ['/images/FrontView.jpg'],
+      images: ['/images/Ten42-Podcast-studio.png'],
       operating_hours: {
         weekdays: { open: '09:00', close: '18:00' },
       },

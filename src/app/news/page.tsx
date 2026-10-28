@@ -9,7 +9,7 @@ import { Badge } from '@/components/ui/Badge';
 export default function NewsPage() {
   const articles = [
     {
-      title: 'Ten42 Unveils State-of-the-Art 280-Seat Conference Auditorium in Lagos',
+      title: 'Ten42 Unveils State-of-the-Art 280-Seat Conference Auditorium in Barnawa, Kaduna',
       date: 'October 10, 2026',
       readTime: '4 min read',
       category: 'Facility Announcement',
@@ -22,7 +22,7 @@ export default function NewsPage() {
       date: 'September 28, 2026',
       readTime: '6 min read',
       category: 'Thought Leadership',
-      image: '/images/FrontView.jpg',
+      image: '/images/Ten42-B-Room.png',
       excerpt:
         'A comprehensive summary of key takeaways from our recent symposium examining how institutional integrity shapes economic durability in emerging markets.',
     },
@@ -31,7 +31,7 @@ export default function NewsPage() {
       date: 'September 15, 2026',
       readTime: '3 min read',
       category: 'Community Impact',
-      image: '/images/Header2.jpg',
+      image: '/images/Ten42-Comp-Room.jpg',
       excerpt:
         'In line with our mission of "Training for Right Living", Ten42 rolls out affordable student and early-career membership passes providing meeting and study access.',
     },

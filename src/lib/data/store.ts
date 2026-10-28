@@ -128,7 +128,7 @@ const INITIAL_DATA: DatabaseData = {
         'High-Speed Dedicated Wi-Fi',
         'Coffee & Tea Service Point',
       ],
-      images: ['/images/FrontView.jpg', '/images/Header2.jpg'],
+      images: ['/images/Ten42-B-Room.png', '/images/Ten42-E-Session.jpg'],
       operating_hours: {
         weekdays: { open: '08:00', close: '19:00' },
         saturday: { open: '09:00', close: '16:00' },
@@ -160,7 +160,7 @@ const INITIAL_DATA: DatabaseData = {
         'Multiple Floor Power Outlets',
         'Air Conditioned',
       ],
-      images: ['/images/Ten42-Comp-Room.jpg'],
+      images: ['/images/Ten42-Comp-Room.jpg', '/images/Ten42-C-Room.png'],
       operating_hours: {
         weekdays: { open: '08:00', close: '18:00' },
         saturday: { open: '09:00', close: '16:00' },
@@ -190,7 +190,7 @@ const INITIAL_DATA: DatabaseData = {
         'High-Speed WiFi',
         'Video Call Bar',
       ],
-      images: ['/images/FrontView.jpg'],
+      images: ['/images/Ten42-C-Room.png', '/images/Ten42-E-Session.jpg'],
       operating_hours: {
         weekdays: { open: '08:00', close: '18:00' },
         saturday: { open: '09:00', close: '16:00' },
@@ -472,7 +472,7 @@ const INITIAL_DATA: DatabaseData = {
       title: 'Applied Data Analytics for Decision Makers',
       description: 'Practical hands-on training providing professionals with the tools to translate raw business metrics into actionable insights using modern analytics, dashboards, and automated reporting.',
       category: 'Technology',
-      featured_image: '/images/FrontView.jpg',
+      featured_image: '/images/Ten42-Comp-Room.jpg',
       instructor: 'Engr. T. Olatunji',
       start_date: '2026-11-20',
       end_date: '2026-11-22',
